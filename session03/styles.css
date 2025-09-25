@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(91, 190, 252);
+    color: white;
+    margin: 0px;
+    font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2,h3,h4,h5,h6,p {
+    margin: 0px;
+    font-weight: 100;
+}
+
+header {
+    background-color: rgb(66, 128, 194);
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    font-size: 36px;
+    color: rgb(100, 32, 182);
+
+    .gluten-uniquifier {
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+}
+
+header h1 {
+    font-weight: 100;
+    margin: 10px;
+}
+
+header h2 {
+    font-weight: 100;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(99, 55, 220);
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* descendent selector */
+nav a {
+    margin: 20px;
+    color: rgb(25, 98, 154);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(74, 40, 199);
+}
+
+main {
+    background-color: rgb(5, 107, 127);
+}
+
+main h2 {
+    font-size: 66px;
+    letter-spacing: -16px;
+    margin: 60px 0px 10px 0px;
+}
+
+main h3 {
+        margin: 60px 0px 10px 0px;
+      font-size: 26px;
+}
+
+.gallery {
+      font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subheader {
+      font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main p {
+    margin: 10px 0px;
+      font-size: 18px;
+        font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+.styled-box {
+  border: 6px dotted rgb(3, 128, 3);
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+footer {
+    background-color: rgb(7, 156, 206);
+    padding: 20px;
+}

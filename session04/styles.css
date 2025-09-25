@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(32, 36, 223);
+            background-image: url("images/COLOURBOX63871228.jpg.webp");
+    background-attachment: fixed;
+    background-size: 100px;
+    margin: 0;
+    padding: 0;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#wrapper {
+    width: 80%;
+    background-color: rgb(2, 138, 161);
+    margin: 40px auto;
+    padding: 20px 100px; 
+}
+
+header h1 {
+      font-family: "Bitcount", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+header h2 {
+      font-family: "Bitcount", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgb(221, 160, 221);
+}
+
+header h3 {
+     font-family: "Grandstander", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgb(130, 200, 245);
+}
+
+span.wow {
+color: rgb(255, 101, 227);
+font-weight: 900;
+font-style: italic;
+text-transform: uppercase;
+}
+
+main p.types {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+main table {
+    text-align: center;
+    background-color: rgb(241, 196, 255);
+}
+
+main table th {
+    background-color: rgb(192, 143, 244);
+}
+
+main table td {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.pink-border {
+  border: 4px solid #ff69b4;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.blue-border {
+     border: 4px solid #3a74fb;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.featured-header {
+      font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.second-header {
+          font-family: "Bitcount", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: rgb(221, 160, 221);
+}
+
+.info {
+     font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.info2 {
+     font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+span.ending {
+  color: rgb(255, 101, 227);
+font-weight: 900;
+font-style: italic;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 75%;
+  max-width: 650px;         
+  margin: 20px auto; 
+  padding-bottom: 56.25%;    
+  height: 0;
+  overflow: hidden;
+  border: 2px solid rgb(192, 143, 244);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+} 

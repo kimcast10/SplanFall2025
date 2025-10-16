@@ -1,0 +1,156 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* END border-box fix */
+body {
+    background-color: #13583A;
+}
+
+div.container {
+    width: 80%;
+    background-color: #229C67;
+    /* center the div container */
+    margin: 40px auto;
+}
+
+header, 
+nav, 
+main, 
+aside, 
+footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #33E89A;
+}
+nav {
+    background-color: rgb(137, 189, 188);
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    background-color: #13583A;
+    width: 200px;
+    height: 50px;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 120px;
+}
+nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+nav a:hover {
+    color: #33E89A;
+}
+
+main {
+    background-color: #1B7A50;
+    width: 70%;
+    float: left;
+}
+aside {
+    background-color: #229C67;
+    width: 30%;
+    float: left; 
+}
+footer {
+    background-color: #33E89A;
+    float: none;
+    clear: both;
+}
+
+
+/* beginnging of history page changes */ 
+
+.bat {
+ background-color: #582313;
+}
+
+div.pumpkin {
+        width: 80%;
+    background-color: #9c4d22;
+    /* center the div container */
+    margin: 40px auto;
+}
+
+.pumpkin header {
+    padding: 15px;
+    background-color: #eb7536;
+    float: center;
+}
+
+.pumpkin body {
+        background-color: #582d13;
+}
+
+.pumpkin nav {
+    background-color: rgb(189, 164, 137);
+}
+
+.pumpkin nav ul {
+    margin: 2px;
+    padding: 15px;
+    text-align: center;
+}
+.pumpkin nav li {
+    display: inline-block;
+    background-color: #582c13;
+    width: 200px;
+    height: 50px;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 10px 40px;
+    border-radius: 10px;
+}
+.pumpkin nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+.pumpkin nav a:hover {
+    color: #e89433;
+}
+
+.pumpkin main {
+    background-color: #7a311b;
+    width: 70%;
+    float: right;
+}
+.pumpkin aside {
+    background-color: #b56028;
+    width: 30%;
+    float: left; 
+}
+.image1 {
+    width: 230px;
+    height: auto;
+    margin-top: 50px;
+    float: left;
+}
+
+.image2 {
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    float: right;
+}
+
+.pumpkin footer {
+    background-color: #e88b33;
+    float: center;
+    clear: both;
+}

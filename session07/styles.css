@@ -1,0 +1,118 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+/* asterisk (*) symbol represents the universal selector. Its primary function is to select all elements of any type within the document. */
+/* :before is a pseudo-element used to insert content before the actual content of a selected element. It creates a "virtual" first child within the element, allowing you to style and add content that isn't directly present in your HTML markup. */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+    background-color: rgb(170, 170, 170);
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    max-width: 1500px;
+    background-color: #fff;
+    border: solid #000000 10px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wrapper>* {
+    padding: 20px;
+}
+
+header {
+     background-image: url('images/image1.jpg');
+  background-size: cover;     
+  background-position: center;  
+  background-repeat: no-repeat;
+    order: 1;
+    flex: 0 0 100%;
+    opacity: 0.8;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h1, h2, h3 {
+      font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+background-color: antiquewhite;
+  order: 3;
+  flex: 1 1 500px;
+  position: relative; 
+}
+
+/* SUBSCRIBE BUTTON */
+main button.buttonAbsolute {
+    background-color: rgb(168, 135, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 150px;
+    opacity: 0.9;
+    padding: 15px;
+    border-radius: 125px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* view gallery button */
+main a.buttonRelative {
+    background-color: rgb(255, 208, 0);
+    width: 100px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    left: 40px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+p {
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+    background: rgb(89, 136, 109);
+    order: 2;
+    flex: 1 0 200px;
+}
+aside {
+    background: rgb(89, 136, 109);
+    order: 4;
+    flex: 1 0 200px;
+}
+footer {
+  background-image: url('images/image1.jpg');
+  background-size: cover;     
+  background-position: center;  
+  background-repeat: no-repeat;
+    order: 5;
+    flex: 0 0 100%;
+}
+
+img {
+    width: 300px;  
+  height: 200px;  
+  object-fit: cover; 
+  border-radius: 8px;
+}

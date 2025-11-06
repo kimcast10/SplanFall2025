@@ -163,21 +163,21 @@ aside {
 }
 
 aside img {
-  width: 115%;        /* make image fill the sidebar width */
-  max-width: 150px;   /* optional: limit max width */
-  height: auto;       /* maintain aspect ratio */
-  display: block;     /* remove inline spacing below image */
-  margin: 10px 0;     /* spacing above and below */
-  border-radius: 8px; /* optional: rounded corners for style */
+  width: 115%;       
+  max-width: 150px;  
+  height: auto;       
+  display: block;     
+  margin: 10px 0;     
+  border-radius: 8px; 
 }
 
 nav img {
-  width: 110%;        /* make image fill the sidebar width */
-  max-width: 250px;   /* optional: limit max width */
-  height: auto;       /* maintain aspect ratio */
-  display: block;     /* remove inline spacing below image */
-  margin: 10px 0;     /* spacing above and below */
-  border-radius: 8px; /* optional: rounded corners for style */
+  width: 110%;      
+  max-width: 250px; 
+  height: auto;     
+  display: block;     
+  margin: 10px 0;    
+  border-radius: 8px; 
 }
 
 main table {

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid Layout</title>
+	<link rel="stylesheet" href="styles.css">
+    <link rel="index.html" href="index.html">
+	<link rel="gallery.html" href="gallery.html">
+  <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<header id="gallery-header">
+			<h1>Let's look at some CATS!</h1>
+		</header>
+
+		<main id="main-color">
+
+<div class="carousel">
+  <!-- Radio buttons -->
+  <input type="radio" name="slides" id="slide1" checked>
+  <input type="radio" name="slides" id="slide2">
+  <input type="radio" name="slides" id="slide3">
+  <input type="radio" name="slides" id="slide4">
+
+  <!-- Slides -->
+  <div class="photos">
+    <img src="images/calico1.jpg" alt="Calico 1" class="slide1">
+    <img src="images/calico2.jpg" alt="Calico 2" class="slide2">
+    <img src="images/calico3.jpg" alt="Calico 3" class="slide3">
+    <img src="images/calico4.jpg" alt="Calico 4" class="slide4">
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+     <label for="slide4" class="prev slide1">⟨</label>
+    <label for="slide2" class="next slide1">⟩</label>
+
+    <!-- Slide 2 -->
+    <label for="slide1" class="prev slide2">⟨</label>
+    <label for="slide3" class="next slide2">⟩</label>
+
+    <!-- Slide 3 -->
+    <label for="slide2" class="prev slide3">⟨</label>
+    <label for="slide4" class="next slide3">⟩</label>
+
+    <!-- Slide 4 -->
+    <label for="slide3" class="prev slide4">⟨</label>
+    <label for="slide1" class="next slide4">⟩</label>
+  </div>
+</div>
+
+		</main>
+
+		<nav id="nav-color">
+			<br><a href="index.html">History!</a><br>
+      	<br><h2>Honorable Mention #1</h2></br>
+              <img src="images/tama.jpg" alt="Tama">
+
+			
+		</nav>
+
+		<aside id="sidebar-color">
+      <br><a href="animation.html">Fun Facts!</a><br>
+     
+			 <br><h2>Honorable Mention #2</h2></br>
+              <img src="images/cheddar.jpg" alt="Cheddar">
+		</aside>
+		<footer id="footer-color">
+                <div class="yarn-container">
+  <img src="images/yarnball.png" alt="Yarn Ball" class="yarn">
+</div>
+
+<h2>Sources</h2>
+
+          <p><a href="https://www.thesprucepets.com/calico-cats-profile-554694" target="_blank">
+  The Spruce Pets
+</a></p>
+<p><a href="https://www.cattownoakland.org/cat-town-blog/2021/04/calico-cat-facts-to-know" target="_blank">
+  Cat Town Oakland
+</a></p>
+<p>
+    <a href="https://msa.maryland.gov/msa/mdmanual/01glance/symbols/html/cat.html" target="_blank">
+  Maryland Manual Online</a>
+</p>
+        </footer>
+
+	</div>
+
+</body>
+
+</html>

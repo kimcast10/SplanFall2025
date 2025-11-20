@@ -1,0 +1,118 @@
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color:#f1e153;
+}
+
+h1 {
+	color: #53c9f1;
+	text-align: center;
+	font-style: italic;
+}
+.mermaid {
+  height: 80px;      /* adjust size */
+  vertical-align: middle;
+  margin-left: 20px; /* space between text and gif */
+}
+
+.mermaid2 {
+  height: 80px;      /* adjust size */
+  vertical-align: middle;
+  margin-right: 20px; /* space between text and gif */
+}
+
+#left-container {
+	left: 0px;
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+	background-color: #eee;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.seashell-jar {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.seashell {
+    width: 75%;
+    height: auto;
+    position: absolute; 
+    cursor: grab;
+    z-index: 4; 
+}
+
+
+.jar-walls {
+	height: 80%;
+	width: 60%;
+	background: #d1e1df;
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.jar-top {
+	width: 50%;
+	height: 5%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 50%;
+	height: 1%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 0%;
+	left: 25%;
+	opacity: 0.7;
+}
+
+.sand {
+  position: absolute;
+  bottom: 1%; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 59%; 
+  pointer-events: none;
+  z-index: 0; 
+  border-radius: 10px; 
+}
+
+.jar-glossy-long {
+	width: 3%;
+	height: 20%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 20%;
+	left: 5%;
+}
+
+.jar-glossy-short {
+	width: 3%;
+	height: 5%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 45%;
+	left: 5%;
+}

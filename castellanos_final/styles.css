@@ -1,0 +1,229 @@
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#wrapper {
+    max-width: 1500px;
+    background-color: #fff;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wrapper>* {
+    padding: 20px;
+}
+
+header {
+  background-size: cover;     
+  background-position: center;  
+  background-repeat: no-repeat;
+  font-family: 'Mrs Saint Delafield', cursive;
+   font-size: 1;
+    order: 1;
+    flex: 0 0 100%;
+    opacity: 0.8;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+     background-color: rgba(255, 223, 39, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+      font-family: 'Mrs Saint Delafield', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+    font-family: 'Petit Formal Script';
+background-color: rgb(255, 255, 255);
+  order: 3;
+  flex: 1 1 500px;
+  position: relative; 
+}
+
+/* Reserve BUTTON */
+main button.reservations {
+    background-color: rgb(168, 135, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 150px;
+    opacity: 0.9;
+    padding: 15px;
+    border-radius: 125px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+font-family: 'Petit Formal Script';
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+    background: rgb(30, 19, 186);
+    order: 2;
+    flex: 1 0 200px;
+}
+
+/* nav buttons */
+nav a {
+    background-color: rgb(168, 135, 0);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+aside {
+    background: rgb(221, 8, 8);
+    order: 4;
+    flex: 1 0 200px;
+}
+footer {
+             background-image: url('images/eiffeltower.jpg');
+  background-size: cover;     
+  background-position: center;  
+  background-repeat: no-repeat;
+    order: 5;
+    flex: 0 0 100%;
+}
+
+img {
+    width: 300px;  
+  height: 200px;  
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+/* Gallery Page */
+.gallery {
+    font-family: 'Petit Formal Script';
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+#contact {
+    position: relative;
+    padding: 40px 20px;
+    background: #f7f1e3;
+    border-radius: 10px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+#p5canvas canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#contactForm {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contactForm input, 
+#contactForm textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contactForm button {
+    padding: 10px;
+    background-color: #d4a373;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+    background-color: #b57d4c;
+}
+
+
+/* MENU Page */
+.menu-titles {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-option {
+    cursor: pointer;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.menu-option:hover {
+    color: #D2691E; 
+}
+
+.menu-image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-image-container img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+  <header>
+    <h1>Menus</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">About Us</a></li>
+      <li><a href="gallery.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <section>
+        <div class="menu-titles">
+          <span class="menu-option" data-img="images/appsmenu.jpg">Appetizers</span>
+          <span class="menu-option" data-img="images/entreesmenu.jpg">Entrees</span>
+          <span class="menu-option" data-img="images/pastrymenu.jpg">Pastries</span>
+        </div>
+        <div class="menu-image-container">
+          <img id="menuImage" src="images/appsmenu.jpg" alt="Menu Item">
+        </div>
+
+      </section>
+    </article>
+  </main>
+  <aside>
+    <h2>Chef’s Recommendations</h2>
+    <p>
+      Our menu highlights classic French cuisine prepared with fresh, seasonal ingredients.
+      We recommend starting with our house-made appetizers, followed by one of our signature entrées.
+    </p>
+    <p>
+      Finish your meal with a delicate pastry and a freshly brewed espresso for the full
+      Parisian café experience.
+    </p>
+                        <button class="reservations">RESERVE A TABLE</button>
+  </aside>
+
+  <footer>
+    <p>Designed by Kimberly Castellanos</p>
+    <p>
+      Sources:
+      <a href="https://edit.org/blog/french-menu-templates">menu-titles</a>
+       <a href="https://www.w3schools.com/jquery/">W3 Schools: jQuery</a>
+    </p>
+  </footer>
+
+</div>
+
+<!-- jQuery hover interaction -->
+<script>
+$(document).ready(function() {
+    $(".menu-option").hover(function() {
+        const newSrc = $(this).data("img");
+        $("#menuImage").attr("src", newSrc);
+    });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Petite Croissant - French Café NYC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <header>
+        <h1 id="title">Le Petite Croissant</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Bienvenue à Le Petite Croissant</h2>
+
+            <section>
+                <h3>Our Story</h3>
+                <p>
+                    Opening its doors in 2025, Le Petite Croissant is a charming French café and bistro nestled in the heart of New York City.
+                    Inspired by the cafés of Paris, we bring together classic French flavors, fresh ingredients,
+                    and a relaxed atmosphere. Our space is designed to invite guests to slow down, savor,
+                    and enjoy the simple pleasures of French cuisine.
+                </p>
+            </section>
+
+            <section>
+                <h3>Our Menu</h3>
+                <p>
+                    Our menu features traditional French café fare including buttery croissants and seasonal entrées. We proudly serve expertly brewed coffees,
+                    artisanal cocktails, and a curated selection of French wines and cheeses.
+                </p>
+                <p>
+                    From breakfast to dinner, each dish is made with authentic ingredients and French culinary techniques, every plate reflects the art of French cooking.
+                </p>
+            </section>
+
+            <section>
+                <h3>Café Experience</h3>
+                <p>
+                    Our interior is inspired by the quaint cafés of Paris, with rustic wood tables, elegant chairs, 
+                    and charming décor that transports you to the streets of France. During warmer months, outdoor seating 
+                    is available for guests who wish to enjoy the city ambiance while sipping their favorite coffee or wine.
+                </p>
+            </section>
+
+        </article>
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="menus.html">Menu</a></li>
+            <li><a href="gallery.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <h2>Chef’s Notes</h2>
+        <p>
+            All pastries are baked fresh each morning using traditional French techniques.
+            Our chef recommends pairing a warm croissant with a café au lait or enjoying our
+            seasonal escargots with a classic French 75.
+        </p>
+        <p>
+            Seasonal ingredients inspire our rotating specials, and every dish is prepared with attention to detail.
+            Guests are encouraged to try new menu items each visit, discovering the depth and variety of French cuisine.
+        </p>
+    </aside>
+
+    <footer>
+        <p>Designed by Kimberly Castellanos</p>
+        <p>Sources: <a href="https://www.w3schools.com/jsref/event_onload.asp" target="_blank">W3 Schools</a>, 
+        <a href="https://www.w3schools.com/jsref/event_animationend.asp" target="_blank">Animations</a></p>
+        <a href="https://elizabetheverywhere.com/france-food-culture/" target="_blank">French Foodie Background</a></p>
+        <a href="https://en.wikipedia.org/wiki/French_cuisine" target="_blank">French Cuisine Background</a></p>
+    </footer>
+
+</div>
+
+<!-- javascript animation -->
+<script>
+window.onload = function() {
+    const title = document.getElementById("title");
+    let position = -100;
+    let opacity = 0;
+
+    function dropIn() {
+        if (position < 0) {
+            position += 2;
+            opacity += 0.02;
+            title.style.top = position + "px";
+            title.style.opacity = opacity;
+            requestAnimationFrame(dropIn);
+        }
+    }
+
+    dropIn();
+};
+</script>
+
+</body>
+</html>

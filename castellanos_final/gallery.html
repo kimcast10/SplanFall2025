@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery & Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+
+    <header>
+        <h1>Gallery & Contact</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Gallery</h2>
+
+            <section class="gallery">
+                <img src="images/french75.jpg" alt="french75">
+                <img src="images/cafeaulait.jpg" alt="cafeaulait">
+                <img src="images/wine.jpg" alt="wine">
+                <img src="images/frenchdish1.jpg" alt="frenchdish1">
+                <img src="images/frenchdish2.jpg" alt="frenchdish2">
+                <img src="images/frenchdish3.jpg" alt="frenchdish3">
+                <img src="images/interior1.jpg" alt="interior1">
+                <img src="images/exterior.jpg" alt="exterior">
+                <img src="images/interior2.jpg" alt="interior2">
+            </section>
+            <section id="location">
+                <h2>Visit Us</h2>
+                <p>
+                    Le Petite Croissant is located in the heart of New York City.
+                    Stop by for a coffee, a pastry, or a full meal inspired by classic
+                    French café culture.
+                </p>
+                <p>
+                    Open daily from 8am to 10pm. We welcome walk-ins and reservations.
+                    For private events or special inquiries, please reach out using
+                    the contact form.
+                </p>
+            </section>
+
+        </article>
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="menus.html">Menus</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <h2>Contact Us</h2>
+        <p>Send us a message and we’ll get back to you as soon as possible!</p>
+
+        <!-- p5.js canvas -->
+        <div id="p5canvas"></div>
+
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </aside>
+<footer>
+    <p>Designed by Kimberly Castellanos</p>
+    <p>
+      Sources:
+      <a href="https://editor.p5js.org/kcast10/sketches/La6hnM04w">p5js</a>,
+      <a href="https://p5js.org/examples/input-elements-dom-form-elements/">p5js Reference</a>,
+      <a href="https://pastisnyc.com">Pastis</a>
+       <a href="https://www.europeanwaterways.com/blog/10-classic-french-dishes-you-must-try/">Escargot</a>
+  <a href="https://www.cnn.com/travel/article/classic-french-dishes-wellness">Dessert</a>
+  <a href="https://lechefswife.com/french-dinner-recipes/">Soup</a>
+    <a href="https://frenchwinetutor.com/blog/wine/5-stunning-french-sparkling-wines-you-need-for-the-holidays/">Wine</a>
+      <a href="https://www.acouplecooks.com/cafe-au-lait/">Cafe</a>
+        <a href="https://www.tasteofhome.com/recipes/french-75-cocktail/">Cocktail</a>
+    </p>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
